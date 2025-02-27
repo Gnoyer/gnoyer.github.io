@@ -9,37 +9,7 @@
     <managingEditor>2408211869@qq.com (Candor)</managingEditor>
     <webMaster>2408211869@qq.com (Candor)</webMaster>
     <copyright>©2025 - 2025 Candor</copyright>
-    <lastBuildDate>Sat, 22 Feb 2025 12:57:13 +0800</lastBuildDate><atom:link href="https://Gnoyer.github.io/series/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Hugo</title>
-      <link>https://Gnoyer.github.io/series/hugo/</link>
-      <pubDate>Sat, 22 Feb 2025 12:57:13 +0800</pubDate>
-      <author>2408211869@qq.com (Candor)</author>
-      <guid>https://Gnoyer.github.io/series/hugo/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>测试</title>
-      <link>https://Gnoyer.github.io/series/%E6%B5%8B%E8%AF%95/</link>
-      <pubDate>Sat, 22 Feb 2025 12:57:13 +0800</pubDate>
-      <author>2408211869@qq.com (Candor)</author>
-      <guid>https://Gnoyer.github.io/series/%E6%B5%8B%E8%AF%95/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>技术</title>
-      <link>https://Gnoyer.github.io/series/%E6%8A%80%E6%9C%AF/</link>
-      <pubDate>Sat, 22 Feb 2025 12:57:13 +0800</pubDate>
-      <author>2408211869@qq.com (Candor)</author>
-      <guid>https://Gnoyer.github.io/series/%E6%8A%80%E6%9C%AF/</guid>
-      <description></description>
-      
-    </item>
+    <atom:link href="https://Gnoyer.github.io/series/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

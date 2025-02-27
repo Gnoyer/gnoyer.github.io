@@ -13,11 +13,21 @@
     
     <item>
       <title>测试</title>
-      <link>https://Gnoyer.github.io/posts/%E6%B5%8B%E8%AF%95/</link>
+      <link>https://Gnoyer.github.io/%E5%85%A8%E9%83%A8/%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Sat, 22 Feb 2025 12:57:13 +0800</pubDate>
       <author>2408211869@qq.com (Candor)</author>
-      <guid>https://Gnoyer.github.io/posts/%E6%B5%8B%E8%AF%95/</guid>
+      <guid>https://Gnoyer.github.io/%E5%85%A8%E9%83%A8/%E6%B5%8B%E8%AF%95/</guid>
       <description>&lt;p&gt;这是一个测试文件&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>空白文章</title>
+      <link>https://Gnoyer.github.io/%E5%85%A8%E9%83%A8/%E7%A9%BA%E7%99%BD/</link>
+      <pubDate>Sat, 22 Feb 2025 12:54:59 +0800</pubDate>
+      <author>2408211869@qq.com (Candor)</author>
+      <guid>https://Gnoyer.github.io/%E5%85%A8%E9%83%A8/%E7%A9%BA%E7%99%BD/</guid>
+      <description></description>
       
     </item>
     

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Novel on Candor&#39;s Blog</title>
-    <link>https://Gnoyer.github.io/posts/writing/novel/</link>
+    <link>http://localhost:1313/posts/writing/novel/</link>
     <description>Recent content in Novel on Candor&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <managingEditor>2408211869@qq.com (Candor)</managingEditor>
     <webMaster>2408211869@qq.com (Candor)</webMaster>
     <copyright>©2025 - 2025 Candor</copyright>
-    <lastBuildDate>Sat, 22 Feb 2025 18:54:02 +0800</lastBuildDate><atom:link href="https://Gnoyer.github.io/posts/writing/novel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Feb 2025 18:54:02 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/writing/novel/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
