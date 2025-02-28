@@ -9,7 +9,27 @@
     <managingEditor>2408211869@qq.com (Candor)</managingEditor>
     <webMaster>2408211869@qq.com (Candor)</webMaster>
     <copyright>©2025 - 2025 Candor</copyright>
-    <atom:link href="https://Gnoyer.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Feb 2025 21:38:13 +0800</lastBuildDate><atom:link href="https://Gnoyer.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>排行</title>
+      <link>https://Gnoyer.github.io/series/%E6%8E%92%E8%A1%8C/</link>
+      <pubDate>Fri, 28 Feb 2025 21:38:13 +0800</pubDate>
+      <author>2408211869@qq.com (Candor)</author>
+      <guid>https://Gnoyer.github.io/series/%E6%8E%92%E8%A1%8C/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>记录系列</title>
+      <link>https://Gnoyer.github.io/series/%E8%AE%B0%E5%BD%95%E7%B3%BB%E5%88%97/</link>
+      <pubDate>Fri, 28 Feb 2025 21:37:57 +0800</pubDate>
+      <author>2408211869@qq.com (Candor)</author>
+      <guid>https://Gnoyer.github.io/series/%E8%AE%B0%E5%BD%95%E7%B3%BB%E5%88%97/</guid>
+      <description></description>
+      
+    </item>
     
   </channel>
 </rss>
