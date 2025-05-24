@@ -2,14 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>全部 on 蚕豆的博客</title>
-    <link>https://Gnoyer.github.io/%E5%85%A8%E9%83%A8/</link>
+    <link>http://localhost:1313/%E5%85%A8%E9%83%A8/</link>
     <description>Recent content in 全部 on 蚕豆的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <managingEditor>2408211869@qq.com (Candor)</managingEditor>
     <webMaster>2408211869@qq.com (Candor)</webMaster>
     <copyright>©2025 - 2025 Candor</copyright>
-    <lastBuildDate>Fri, 28 Feb 2025 21:38:13 +0800</lastBuildDate><atom:link href="https://Gnoyer.github.io/%E5%85%A8%E9%83%A8/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 May 2025 10:54:31 +0800</lastBuildDate><atom:link href="http://localhost:1313/%E5%85%A8%E9%83%A8/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Test</title>
+      <link>http://localhost:1313/%E5%85%A8%E9%83%A8/test/</link>
+      <pubDate>Sat, 24 May 2025 10:54:31 +0800</pubDate>
+      <author>2408211869@qq.com (Candor)</author>
+      <guid>http://localhost:1313/%E5%85%A8%E9%83%A8/test/</guid>
+      <description></description>
+      
+    </item>
     
   </channel>
 </rss>

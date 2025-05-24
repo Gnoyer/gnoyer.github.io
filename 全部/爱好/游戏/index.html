@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
-  data-auto-appearance="false"><head>
+  data-auto-appearance="false"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="zh-cn" />
@@ -15,7 +15,7 @@
   
   
   
-  <link rel="canonical" href="https://Gnoyer.github.io/%E5%85%A8%E9%83%A8/%E7%88%B1%E5%A5%BD/%E6%B8%B8%E6%88%8F/" />
+  <link rel="canonical" href="http://localhost:1313/%E5%85%A8%E9%83%A8/%E7%88%B1%E5%A5%BD/%E6%B8%B8%E6%88%8F/" />
   
   <link rel="alternate" type="application/rss+xml" href="/%E5%85%A8%E9%83%A8/%E7%88%B1%E5%A5%BD/%E6%B8%B8%E6%88%8F/index.xml" title="蚕豆的博客" />
   
@@ -69,7 +69,7 @@
   
   
   
-  <meta property="og:url" content="https://Gnoyer.github.io/%E5%85%A8%E9%83%A8/%E7%88%B1%E5%A5%BD/%E6%B8%B8%E6%88%8F/">
+  <meta property="og:url" content="http://localhost:1313/%E5%85%A8%E9%83%A8/%E7%88%B1%E5%A5%BD/%E6%B8%B8%E6%88%8F/">
   <meta property="og:site_name" content="蚕豆的博客">
   <meta property="og:title" content="游戏">
   <meta property="og:description" content="蚕豆的个人博客，里面包含了技术和算法文章，以及个人的兴趣爱好和一些随写记录">
@@ -136,31 +136,44 @@
   
   
   <meta name="theme-color"/>
-  
-  
-  
-  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.49.8/dist/umd/supabase.min.js"></script>
   <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      
+      if (typeof supabase !== 'undefined' && typeof supabase.createClient === 'function') {
+        try {
+          const supabaseClient = supabase.createClient(
+            "https:\/\/ndlyktvqpjnfwqrgprqs.supabase.co",  
+            "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5kbHlrdHZxcGpuZndxcmdwcnFzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDgwNDU0MzEsImV4cCI6MjA2MzYyMTQzMX0.8BC4ACEhZ2PgCff9q6VvGNrt5zB0BINlZTKmzxVpDSs"  
+          );
 
-    const firebaseConfig = {
-      apiKey: "AIzaSyD79jql4P4UWzS8nWU6ZjIUU8xNIU48Qt0",
-      authDomain: "AIzaSyD79jql4P4UWzS8nWU6ZjIUU8xNIU48Qt0",
-      projectId: "candor-3407c",
-      storageBucket: "candor-3407c.firebasestorage.app",
-      messagingSenderId: "440111382995",
-      appId: "1:440111382995:web:432f3c6ab25bc351d66f26",
-      measurementId: "G-0QGXN5TR6Y"
-    };
+          console.log("Supabase 客户端初始化成功");
 
-    var app = firebase.initializeApp(firebaseConfig);
-    var db = firebase.firestore();
-    var auth = firebase.auth();
+          
+          async function fetchExampleData() {
+            let { data, error } = await supabaseClient
+              .from('views') 
+              .select('*');
 
+            if (error) {
+              console.error('Error fetching data:', error);
+            } else {
+              console.log('Data fetched successfully:', data);
+            }
+          }
+
+          
+          fetchExampleData();
+        } catch (error) {
+          console.error("Supabase 客户端初始化失败:", error);
+        }
+      } else {
+        console.error("Supabase SDK 未加载！请检查 CDN 或网络。");
+      }
+    });
   </script>
-  
-  
+
 </head>
 <body
   class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32 scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
@@ -1118,7 +1131,7 @@
   <a class="flex flex-wrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md overflow-hidden max-w-prose" href="/%E5%85%A8%E9%83%A8/%E7%88%B1%E5%A5%BD/%E6%B8%B8%E6%88%8F/%E6%B8%B8%E6%88%8F%E8%AE%B0%E5%BD%95/">
     
         
-        <div class="w-full md:w-auto h-full thumbnail nozoom " style="background-image:url(/img/sun_hu_1db215780c562a49.png);"></div>
+        <div class="w-full md:w-auto h-full thumbnail nozoom " style="background-image:url(/img/%E7%81%AB%E8%BD%A6_hu_eba22c38a4878c1b.png);"></div>
         
       <div class=" p-4">
       <div class="items-center text-left text-xl font-semibold">
@@ -1357,7 +1370,7 @@
 <div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/70 backdrop-blur-lg dark:bg-neutral-900/70 p-4 sm:p-6 md:p-[10vh] transition-opacity duration-300"
-  data-url="https://Gnoyer.github.io/"
+  data-url="http://localhost:1313/"
   style="z-index:500"
 >
   <div
