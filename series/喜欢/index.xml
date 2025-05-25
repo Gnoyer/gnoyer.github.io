@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>喜欢 on 蚕豆的博客</title>
-    <link>http://localhost:1313/series/%E5%96%9C%E6%AC%A2/</link>
+    <link>https://Gnoyer.github.io/series/%E5%96%9C%E6%AC%A2/</link>
     <description>Recent content in 喜欢 on 蚕豆的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <managingEditor>2408211869@qq.com (Candor)</managingEditor>
     <webMaster>2408211869@qq.com (Candor)</webMaster>
     <copyright>©2025 - 2025 Candor</copyright>
-    <lastBuildDate>Fri, 28 Feb 2025 21:38:13 +0800</lastBuildDate><atom:link href="http://localhost:1313/series/%E5%96%9C%E6%AC%A2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 May 2025 21:12:53 +0800</lastBuildDate><atom:link href="https://Gnoyer.github.io/series/%E5%96%9C%E6%AC%A2/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>音乐</title>
-      <link>http://localhost:1313/%E5%85%A8%E9%83%A8/%E7%88%B1%E5%A5%BD/%E9%9F%B3%E4%B9%90/%E9%9F%B3%E4%B9%90/</link>
-      <pubDate>Fri, 28 Feb 2025 21:38:13 +0800</pubDate>
+      <title>影视</title>
+      <link>https://Gnoyer.github.io/%E5%85%A8%E9%83%A8/%E7%88%B1%E5%A5%BD/%E5%BD%B1%E8%A7%86/%E5%BD%B1%E8%A7%86/</link>
+      <pubDate>Sun, 25 May 2025 21:12:53 +0800</pubDate>
       <author>2408211869@qq.com (Candor)</author>
-      <guid>http://localhost:1313/%E5%85%A8%E9%83%A8/%E7%88%B1%E5%A5%BD/%E9%9F%B3%E4%B9%90/%E9%9F%B3%E4%B9%90/</guid>
-      <description>喜欢的音乐</description>
+      <guid>https://Gnoyer.github.io/%E5%85%A8%E9%83%A8/%E7%88%B1%E5%A5%BD/%E5%BD%B1%E8%A7%86/%E5%BD%B1%E8%A7%86/</guid>
+      <description>喜欢的影视以及简评</description>
       
     </item>
     
     <item>
-      <title>影视</title>
-      <link>http://localhost:1313/%E5%85%A8%E9%83%A8/%E7%88%B1%E5%A5%BD/%E5%BD%B1%E8%A7%86/%E5%BD%B1%E8%A7%86/</link>
-      <pubDate>Fri, 28 Feb 2025 14:15:53 +0800</pubDate>
+      <title>音乐</title>
+      <link>https://Gnoyer.github.io/%E5%85%A8%E9%83%A8/%E7%88%B1%E5%A5%BD/%E9%9F%B3%E4%B9%90/%E9%9F%B3%E4%B9%90/</link>
+      <pubDate>Sun, 25 May 2025 21:08:13 +0800</pubDate>
       <author>2408211869@qq.com (Candor)</author>
-      <guid>http://localhost:1313/%E5%85%A8%E9%83%A8/%E7%88%B1%E5%A5%BD/%E5%BD%B1%E8%A7%86/%E5%BD%B1%E8%A7%86/</guid>
-      <description>喜欢的影视</description>
+      <guid>https://Gnoyer.github.io/%E5%85%A8%E9%83%A8/%E7%88%B1%E5%A5%BD/%E9%9F%B3%E4%B9%90/%E9%9F%B3%E4%B9%90/</guid>
+      <description>喜欢的音乐</description>
       
     </item>
     
